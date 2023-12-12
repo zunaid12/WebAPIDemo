@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulemp = $('#ulemp');
+            
+            $('#getemp').click(function(){
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/employee',
+                    datatype: 'json',
+                    success: function (data) {
+                        ulemp.empty();
+                        $.each(data, function (index, val) {
+                            var fullname = val.FirstName + ' ' + val.LastName;
+                            ulemp.append('<li>'+fullname+'</li>')
+                        }); 
+                    }
+                })
+            });
+            $('#Clearemp').click(function () {
+                ulemp.empty();
+            });
+        });
+    </script>
+</head>
+<body>
+        <input id="getemp" type="button" value="All Employee" />
+        <input id="Clearemp" type="button" value="Clear Employee" />
+        <ul id="ulemp"></ul>
+</body>
+</html>
+

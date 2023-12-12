@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDemo", "WebAPIDemo\WebAPIDemo.csproj", "{AA3F1C06-336A-4B93-A4FD-5FBE683F55EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiDBAccess", "ApiDBAccess\ApiDBAccess.csproj", "{A1C451E9-74D6-4D89-9131-3F39EA5041B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA3F1C06-336A-4B93-A4FD-5FBE683F55EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3F1C06-336A-4B93-A4FD-5FBE683F55EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3F1C06-336A-4B93-A4FD-5FBE683F55EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3F1C06-336A-4B93-A4FD-5FBE683F55EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C451E9-74D6-4D89-9131-3F39EA5041B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C451E9-74D6-4D89-9131-3F39EA5041B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C451E9-74D6-4D89-9131-3F39EA5041B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C451E9-74D6-4D89-9131-3F39EA5041B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
